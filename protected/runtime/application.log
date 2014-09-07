@@ -2170,3 +2170,22 @@ HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
 2014/09/07 18:14:07 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
 in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (35)
 in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 21:21:59 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (35)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 21:47:46 [error] [php] copy(C:\Bitrix\www\artpotolok55\assets\f41c4c88\styles.css) [<a href='function.copy'>function.copy</a>]: failed to open stream: Invalid argument (C:\hlam\yii-1.1.15.022a51\framework\utils\CFileHelper.php:152)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CAssetManager.php(251): copyDirectory()
+#1 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php(75): CAssetManager->publish()
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php(111): YiiDebugToolbar->getAssetsUrl()
+#3 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php(129): YiiDebugToolbar->__get()
+#4 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php(106): YiiDebugToolbar->registerClientScripts()
+#5 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbarRoute.php(139): YiiDebugToolbar->init()
+#6 C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php(561): YiiDebugToolbarRoute->onBeginRequest()
+#7 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(207): CWebApplication->raiseEvent()
+#8 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(178): CWebApplication->onBeginRequest()
+#9 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=gii/model/index
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php (75)
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php (129)
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php (106)
