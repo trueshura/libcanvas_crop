@@ -1,0 +1,2172 @@
+2014/08/30 13:35:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\hlam\yii-1.1.15.022a51\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/artpotolok55/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=gii/crud/index
+---
+2014/08/30 13:39:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\hlam\yii-1.1.15.022a51\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/artpotolok55/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=gii/crud/index
+---
+2014/08/30 13:39:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\hlam\yii-1.1.15.022a51\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/artpotolok55/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=gii/crud/index
+---
+2014/08/30 13:41:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\hlam\yii-1.1.15.022a51\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/artpotolok55/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=gii/crud/index
+---
+2014/08/30 13:41:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\hlam\yii-1.1.15.022a51\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/artpotolok55/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=gii
+---
+2014/08/30 13:46:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\hlam\yii-1.1.15.022a51\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\hlam\yii-1.1.15.022a51\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/artpotolok55/index.php?r=gii/model/index
+---
+2014/08/30 15:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "interrior/edit".' in C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interrior/edit')
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interrior/edit
+---
+2014/08/30 15:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "фвв".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('??????')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('??????')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/????...')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/%D1%84%D0%B2%D0%B2
+---
+2014/08/30 16:38:25 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/08/30 16:38:57 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/08/30 16:39:04 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/08/30 16:39:47 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/08/30 16:39:47 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/08/30 16:41:26 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/08/30 16:44:15 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/03 12:07:35 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.attempts" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\views\site\login.php(48): CComponent->__get('attempts')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#5 C:\Bitrix\www\artpotolok55\protected\controllers\SiteController.php(70): CController->render('login', Array)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/artpotolok55/index.php?r=site/login
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php
+---
+2014/09/03 12:07:57 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.attempts" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\views\site\login.php(48): CComponent->__get('attempts')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#5 C:\Bitrix\www\artpotolok55\protected\controllers\SiteController.php(70): CController->render('login', Array)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/artpotolok55/index.php?r=site/login
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php
+---
+2014/09/03 12:39:47 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.attempts" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\models\LoginForm.php(65): CComponent->__get('attempts')
+#1 C:\hlam\yii-1.1.15.022a51\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#2 C:\hlam\yii-1.1.15.022a51\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#4 C:\Bitrix\www\artpotolok55\protected\controllers\SiteController.php(66): CModel->validate()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('login')
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#11 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/artpotolok55/index.php?r=site/login
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=site/login
+---
+2014/09/03 13:20:46 [error] [php] Missing argument 2 for CHttpSession::add(), called in C:\Bitrix\www\artpotolok55\protected\models\LoginForm.php on line 24 and defined (C:\hlam\yii-1.1.15.022a51\framework\web\CHttpSession.php:486)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=site/login
+in C:\Bitrix\www\artpotolok55\protected\models\LoginForm.php (24)
+in C:\Bitrix\www\artpotolok55\protected\controllers\SiteController.php (52)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/03 14:07:41 [warning] [application] Failed to set unsafe attribute "verifyCode" of "LoginForm".
+in C:\Bitrix\www\artpotolok55\protected\controllers\SiteController.php (64)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/03 15:27:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=site/login
+---
+2014/09/03 15:27:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/03 21:45:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/edit')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/edit
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=site/login
+---
+2014/09/04 12:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/crea...')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/create
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 12:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "action2".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('action2')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('action2')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('site/action2')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=site/action2
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/create
+---
+2014/09/04 12:51:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 12:51:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=site/login
+---
+2014/09/04 12:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=site/login
+---
+2014/09/04 14:16:16 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php(32): CWebUser->isAdmin()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(784): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#13 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): CController->render('edit', Array)
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#24 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#25 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 14:20:50 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php(32): CWebUser->isAdmin()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#3 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(206): COutputProcessor->run()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#10 C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#12 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(784): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#15 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): CController->render('edit', Array)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#26 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#27 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 14:33:09 [error] [php] include(GroupBehavior.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\hlam\yii-1.1.15.022a51\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\YiiBase.php(196): import()
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php(329): createComponent()
+#2 C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php(30): CWebUser->attachBehavior()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require()
+#4 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): InterriorsController->renderInternal()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(76): InterriorsController->renderFile()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(300): InterriorsController->endWidget()
+#11 C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php(6): InterriorsController->endContent()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require()
+#13 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): InterriorsController->renderInternal()
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(784): InterriorsController->renderFile()
+#16 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): InterriorsController->render()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): InterriorsController->runAction()
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): InterriorsController->filterAccessControl()
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#24 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): InterriorsController->runActionWithFilters()
+#26 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): InterriorsController->run()
+#27 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+in C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php (30)
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php (40)
+in C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php (6)
+2014/09/04 14:37:36 [error] [php] include(GroupBehavior.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\hlam\yii-1.1.15.022a51\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\YiiBase.php(196): import()
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php(329): createComponent()
+#2 C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php(30): CWebUser->attachBehavior()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require()
+#4 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): InterriorsController->renderInternal()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(76): InterriorsController->renderFile()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(300): InterriorsController->endWidget()
+#11 C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php(6): InterriorsController->endContent()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require()
+#13 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): InterriorsController->renderInternal()
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(784): InterriorsController->renderFile()
+#16 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): InterriorsController->render()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): InterriorsController->runAction()
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): InterriorsController->filterAccessControl()
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#24 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): InterriorsController->runActionWithFilters()
+#26 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): InterriorsController->run()
+#27 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+in C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php (30)
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php (40)
+in C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php (6)
+2014/09/04 14:44:19 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php(37): CWebUser->isAdmin()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#3 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(206): COutputProcessor->run()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#10 C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#12 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(784): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#15 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): CController->render('edit', Array)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#26 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#27 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 14:44:32 [error] [exception.CException] exception 'CException' with message 'Property "GroupBehavior.name" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\components\GroupBehavior.php(13): CComponent->__get('name')
+#1 [internal function]: GroupBehavior->isAdmin()
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#3 [internal function]: CComponent->__call('isAdmin', Array)
+#4 C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php(37): CWebUser->isAdmin()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#6 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(206): COutputProcessor->run()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#13 C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#15 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(784): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#18 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): CController->render('edit', Array)
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#27 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#29 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#30 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#31 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 17:09:12 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php(37): CWebUser->isAdmin()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#3 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(206): COutputProcessor->run()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#10 C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#12 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(784): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#15 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): CController->render('edit', Array)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#26 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#27 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 17:14:13 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\Bitrix\www\artpotolok55\protected\views\layouts\main.php(37): CWebUser->isAdmin()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#3 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(206): COutputProcessor->run()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#10 C:\Bitrix\www\artpotolok55\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#12 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(784): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#15 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): CController->render('edit', Array)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#26 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#27 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 17:40:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 17:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 17:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 17:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 19:21:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 19:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 21:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 21:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 21:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/04 21:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 14:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 14:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 14:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 14:33:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 14:34:39 [error] [php] copy(C:\Bitrix\www\artpotolok55\assets\f41c4c88\styles.css) [<a href='function.copy'>function.copy</a>]: failed to open stream: Invalid argument (C:\hlam\yii-1.1.15.022a51\framework\utils\CFileHelper.php:152)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CAssetManager.php(251): copyDirectory()
+#1 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php(75): CAssetManager->publish()
+#2 C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php(111): YiiDebugToolbar->getAssetsUrl()
+#3 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php(129): YiiDebugToolbar->__get()
+#4 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php(106): YiiDebugToolbar->registerClientScripts()
+#5 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbarRoute.php(139): YiiDebugToolbar->init()
+#6 C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php(561): YiiDebugToolbarRoute->onBeginRequest()
+#7 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(207): CWebApplication->raiseEvent()
+#8 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(178): CWebApplication->onBeginRequest()
+#9 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php (75)
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php (129)
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugToolbar.php (106)
+2014/09/05 15:37:03 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 15:42:23 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 15:42:25 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 15:44:14 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 15:44:17 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 15:47:53 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 15:47:55 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:02:57 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:03:01 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:12:52 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:12:55 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:13:16 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:13:27 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:13:30 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:15:02 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:15:04 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:16:41 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:17:24 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:17:25 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:24:30 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:24:31 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:27:17 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:27:19 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:27:24 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:42:06 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:42:06 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:42:08 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:42:08 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:42:48 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:42:48 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:43:06 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:43:06 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:43:08 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:43:08 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:43:30 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:43:30 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:44:22 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:44:22 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:44:25 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:44:25 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:44:26 [warning] [application] Failed to set unsafe attribute "fileName" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:44:26 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 16:48:34 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.isComplex" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWidgetFactory.php(161): CComponent->__set('isComplex', 0)
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(InterriorsController), 'CActiveForm', Array)
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\Bitrix\www\artpotolok55\protected\views\interriors\add.php(19): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#5 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(25): CController->render('add', Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#21 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 16:48:41 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.isComplex" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWidgetFactory.php(161): CComponent->__set('isComplex', 0)
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(InterriorsController), 'CActiveForm', Array)
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\Bitrix\www\artpotolok55\protected\views\interriors\add.php(19): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#5 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(25): CController->render('add', Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#21 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 16:49:05 [error] [exception.CException] exception 'CException' with message 'Property "Interriors.enableAjaxValidation" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(161): CComponent->__set('enableAjaxValid...', false)
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWidgetFactory.php(161): CActiveRecord->__set('enableAjaxValid...', false)
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(InterriorsController), 'Interriors', Array)
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(189): CBaseController->createWidget('Interriors', Array)
+#4 C:\Bitrix\www\artpotolok55\protected\views\interriors\add.php(19): CBaseController->beginWidget('Interriors', Array)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#6 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#10 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(25): CController->render('add', Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#22 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 16:49:27 [error] [exception.CException] exception 'CException' with message 'Interriors and its behaviors do not have a method or closure named "errorSummary".' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(227): CComponent->__call('errorSummary', Array)
+#1 [internal function]: CActiveRecord->__call('errorSummary', Array)
+#2 C:\Bitrix\www\artpotolok55\protected\views\interriors\add.php(35): Interriors->errorSummary(Object(Interriors))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#4 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(InterriorsController), 'C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#8 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(25): CController->render('add', Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#20 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+---
+2014/09/05 17:11:46 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:11:46 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:23:41 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:23:41 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:26:22 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:26:22 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:30:20 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:30:20 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:32:14 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:32:14 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/05 17:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/logi...')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/login
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/06 16:47:01 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 16:47:01 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 16:47:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inde...')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/06 16:47:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inde...')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/06 16:47:55 [error] [php] require() [<a href='function.require'>function.require</a>]: Filename cannot be empty (C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php:130)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(291): InterriorsController->renderFile()
+#1 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\Bitrix\www\artpotolok55\protected\views\interriors\index.php(14): InterriorsController->widget()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require()
+#8 C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): InterriorsController->renderInternal()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): InterriorsController->renderFile()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): InterriorsController->renderPartial()
+#12 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(32): InterriorsController->render()
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionIndex()
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): InterriorsController->runAction()
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): InterriorsController->filterAccessControl()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): InterriorsController->runActionWithFilters()
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): InterriorsController->run()
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+in C:\Bitrix\www\artpotolok55\protected\views\interriors\index.php (14)
+in C:\Bitrix\www\artpotolok55\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php (40)
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (32)
+2014/09/06 17:22:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('edit')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/edit')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/edit&id=9
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/index
+---
+2014/09/06 17:39:57 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:39:57 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:39:57 [error] [exception.CException] exception 'CException' with message 'Property "Interriors.filename" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(145): CComponent->__get('filename')
+#1 C:\Bitrix\www\artpotolok55\protected\models\Interriors.php(42): CActiveRecord->__get('filename')
+#2 C:\Bitrix\www\artpotolok55\protected\models\Interriors.php(36): Interriors->createThumb()
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1071): Interriors->beforeSave()
+#4 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#5 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): CActiveRecord->save()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#17 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/06 17:40:19 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:40:19 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:40:19 [error] [php] imagecreatefromjpeg(IMG_0001.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory (C:\Bitrix\www\artpotolok55\protected\models\Interriors.php:42)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1071): Interriors->beforeSave()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(806): Interriors->insert()
+#2 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): Interriors->save()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): InterriorsController->runAction()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): InterriorsController->filterAccessControl()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): InterriorsController->runActionWithFilters()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): InterriorsController->run()
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (42)
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (36)
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (21)
+2014/09/06 17:42:10 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:42:10 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:42:10 [error] [php] imagecreatefromjpeg(C:\Documents and Settings\em\Local Settings\Temp\php5E1E.tmp) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory (C:\Bitrix\www\artpotolok55\protected\models\Interriors.php:42)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1071): Interriors->beforeSave()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(806): Interriors->insert()
+#2 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): Interriors->save()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): InterriorsController->runAction()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): InterriorsController->filterAccessControl()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): InterriorsController->runActionWithFilters()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): InterriorsController->run()
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (42)
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (36)
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (21)
+2014/09/06 17:42:31 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:42:31 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:42:32 [error] [php] imagecreatefromjpeg(C:\Documents and Settings\em\Local Settings\Temp\php5E22.tmp) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory (C:\Bitrix\www\artpotolok55\protected\models\Interriors.php:42)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1071): Interriors->beforeSave()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(806): Interriors->insert()
+#2 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): Interriors->save()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): InterriorsController->runAction()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): InterriorsController->filterAccessControl()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): InterriorsController->runActionWithFilters()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): InterriorsController->run()
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (42)
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (36)
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (21)
+2014/09/06 17:43:16 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:43:16 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:43:16 [error] [php] getimagesize() [<a href='function.getimagesize'>function.getimagesize</a>]: Filename cannot be empty (C:\Bitrix\www\artpotolok55\protected\models\Interriors.php:43)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1071): Interriors->beforeSave()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(806): Interriors->insert()
+#2 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): Interriors->save()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): InterriorsController->runAction()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): InterriorsController->filterAccessControl()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): InterriorsController->runActionWithFilters()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): InterriorsController->run()
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (43)
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (32)
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (21)
+2014/09/06 17:43:34 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:43:34 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:43:34 [error] [php] imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'C:/Bitrix/www/artpotolok55\images\uploads\thumbs\thumb_' for writing: No such file or directory (C:\Bitrix\www\artpotolok55\protected\models\Interriors.php:46)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1071): Interriors->beforeSave()
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(806): Interriors->insert()
+#2 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(21): Interriors->save()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionAdd()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): InterriorsController->runAction()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): InterriorsController->filterAccessControl()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): InterriorsController->runActionWithFilters()
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): InterriorsController->run()
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (46)
+in C:\Bitrix\www\artpotolok55\protected\models\Interriors.php (32)
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (21)
+2014/09/06 17:44:16 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:44:16 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:45:35 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 17:45:35 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (19)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 18:12:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/06 18:17:14 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (28)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 18:17:14 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (28)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 18:17:25 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (28)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 18:17:25 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (28)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/06 18:20:41 [error] [exception.CException] exception 'CException' with message 'InterriorsController and its behaviors do not have a method or closure named "loadModel".' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('loadModel', Array)
+#1 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(12): InterriorsController->loadModel(NULL)
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionEdit()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('edit')
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/edit')
+#13 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/edit&id=12
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/index
+---
+2014/09/06 18:21:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php:72
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(12): InterriorsController->loadModel(NULL)
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionEdit()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('edit')
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/edit')
+#12 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/edit&id=12
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/index
+---
+2014/09/06 18:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php:72
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php(12): InterriorsController->loadModel(NULL)
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): InterriorsController->actionEdit()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('edit')
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/edit')
+#12 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/edit&id=12
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/index
+---
+2014/09/07 13:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=12
+---
+2014/09/07 14:12:36 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:12:36 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:20:54 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:20:54 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:22:28 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (30)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:22:28 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (30)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:26:14 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:26:14 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:26:46 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:26:46 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:31:22 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:31:22 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:32:06 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:32:06 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:32:42 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:32:42 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:33:40 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:33:40 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:33:58 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:33:58 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:36:29 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:36:29 [warning] [application] Failed to set unsafe attribute "isComplex" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:39:18 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 14:41:26 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 15:11:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "interriors".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('interriors')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('interriors')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inte...')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/interriors
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=14
+---
+2014/09/07 15:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "interriors".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('interriors')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('interriors')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('site/interriors')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=site/interriors
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/interriors
+---
+2014/09/07 15:11:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "interriors".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('interriors')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('interriors')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('site/interriors')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=site/interriors
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/interriors
+---
+2014/09/07 15:20:13 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (30)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 15:20:27 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 15:20:48 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (17)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/07 15:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=14
+---
+2014/09/07 16:01:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=15&_=1410076872210
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 16:26:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=15&_=1410078389296
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 16:27:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=15&_=1410078453604
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 16:33:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410078821128
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 16:34:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410078821128
+---
+2014/09/07 16:35:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410078821128
+---
+2014/09/07 16:35:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410078821128
+---
+2014/09/07 16:36:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410078821128
+---
+2014/09/07 16:38:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410078821128
+---
+2014/09/07 16:38:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1
+---
+2014/09/07 16:38:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14
+---
+2014/09/07 16:40:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14
+---
+2014/09/07 16:40:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=3
+---
+2014/09/07 16:40:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14
+---
+2014/09/07 16:41:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14
+---
+2014/09/07 16:41:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14
+---
+2014/09/07 16:42:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14
+---
+2014/09/07 16:42:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=3
+---
+2014/09/07 16:42:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=3
+---
+2014/09/07 16:43:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=3
+---
+2014/09/07 16:43:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=3
+---
+2014/09/07 16:44:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=3
+---
+2014/09/07 16:44:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=3
+---
+2014/09/07 16:44:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14
+---
+2014/09/07 16:51:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410079916354
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 16:52:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410079930259
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 16:53:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14&ajax=1&_=1410080031890
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 17:40:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=15&ajax=1&_=1410082846016
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 17:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=14
+---
+2014/09/07 18:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=14
+---
+2014/09/07 18:01:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=14
+---
+2014/09/07 18:01:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=14
+---
+2014/09/07 18:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=14
+---
+2014/09/07 18:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/edit&id=14
+---
+2014/09/07 18:07:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/dele...')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/delete&id=14
+---
+2014/09/07 18:13:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors
+---
+2014/09/07 18:13:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:1118
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/add')
+#10 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/add
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=interriors/add
+---
+2014/09/07 18:14:07 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\InterriorsController.php (35)
+in C:\Bitrix\www\artpotolok55\index.php (13)
