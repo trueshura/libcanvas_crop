@@ -2,7 +2,7 @@
 /* @var $this InterriorController */
 
 $this->breadcrumbs=array(
-	'Interrior'=>array('/interrior'),
+	'Interrior'=>array('/admin/interrior'),
 	'Delete',
 );
 ?>

@@ -4,7 +4,7 @@
 /* @var $form CActiveForm */
 
 $this->breadcrumbs=array(
-	'Интерьеры' => array('/interriors'),
+	'Интерьеры' => array('/admin/interriors'),
 );
 
 ?>
@@ -32,6 +32,7 @@ Yii::app()->clientScript->registerScriptFile("files/js/ceiling.js",CClientScript
 
 if($model->scenario =='Add'){
     Yii::app()->clientScript->registerScript("inter-add-script","
+        myCanvas();
         atom.dom(function () {
        
                 atom.dom('#interrSubmit').addClass('hidden');
@@ -41,6 +42,7 @@ if($model->scenario =='Add'){
     array_push($this->breadcrumbs,"Добавить");
 }elseif($model->scenario =='Edit'){
     Yii::app()->clientScript->registerScript("inter-edit-script","
+        myCanvas();
         atom.dom(function () {
                 atom.dom('#selectFile').addClass('hidden');
                 atom.dom('#complex_int').addEvent('click',beginComplex);

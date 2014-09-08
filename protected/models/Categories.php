@@ -9,7 +9,9 @@
  */
 class Categories extends CActiveRecord
 {
-	/**
+        protected static $allCats=null;
+
+        /**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
@@ -41,6 +43,7 @@ class Categories extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+                    'cats'=>array(self::HAS_MANY, 'CategorizedImages','catId'),
 		);
 	}
 
@@ -91,4 +94,15 @@ class Categories extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        public static function getAllCats(){
+                if(!$allCats){
+                    $records=self::model()->findAll();
+                    $allCats=array();
+                    foreach($records as $cat){
+                        $allCats[$cat->id]=$cat->description;
+                    }
+                }
+                return $allCats;
+        }               
 }

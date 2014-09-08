@@ -6,7 +6,7 @@ var MAX_WIDTH=800;
 var MAX_HEIGHT=500;
 var MULTIPLY=2;
 
-    new function () {
+    function myCanvas() {
         LibCanvas.extract();
 	atom.patching(window);
 

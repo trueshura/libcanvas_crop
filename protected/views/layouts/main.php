@@ -33,27 +33,15 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-                                    array('label'=>'Интерьеры', 'url'=>array('/interriors'), 'visible'=>Yii::app()->user->isAdmin(),'items' => array (
-                                        array('label'=>'Добавить', 'url'=>array('interriors/add'), 'tag'=>'new', 'visible'=>Yii::app()->user->isAdmin()),
-                                        )
-                                    ),
+                                    array('label'=>'Интерьеры', 'url'=>array('/admin/interriors'), 'visible'=>Yii::app()->user->isAdmin()),
+                                    array('label'=>'Потолки', 'url'=>array('/admin/images/'), 'visible'=>Yii::app()->user->isAdmin()),
                                     array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 			),
 		)); ?>
 	</div><!-- mainmenu -->
-        <?php if($this->action->id == "add" || $this->action->id == "edit"):?>
+        <?php if($this->hasProperty('toolbar') && $this->toolbar):?>
             <div id="toolbar">
-		<?php $this->widget('ext.JuiButtonSet.JuiButtonSet', array(
-			'items' => array(
-				        array(
-				            'label'=>'Разметить углы',
-				            'icon-position'=>'left',
-				            'url'=>array('/#'),
-                                            'linkOptions'=>array('id'=>"complex_int")
-				        ),
-				    ),
-			'htmlOptions' => array('style' => 'clear: both;'),
-			)); ?>
+		<?php $this->widget('ext.JuiButtonSet.JuiButtonSet',$this->toolbar); ?>
             </div><!-- toolbar -->
         <?php endif;?>
         

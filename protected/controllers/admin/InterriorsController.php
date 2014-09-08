@@ -2,8 +2,15 @@
 
 class InterriorsController extends Controller
 {
-	public function actionDelete($id)
-	{
+        public $toolbar;
+
+        function __construct($id, $module=NULL) {
+            $this->toolbar = NULL;
+            parent::__construct($id, $module);
+        }
+ 
+ 	public function actionDelete($id)
+ 	{
             $model=$this->loadModel($id);
 
             $this->performAjaxDeletion($model);
@@ -25,6 +32,7 @@ class InterriorsController extends Controller
                             $this->redirect(array('index'));
                         }
                 }
+            $this->setToolbar();
             $this->render('add',array('model'=>$model));
 	}
 	public function actionAdd()
@@ -38,6 +46,7 @@ class InterriorsController extends Controller
                             $this->redirect(array('index'));
                         }
                 }
+            $this->setToolbar();
             $this->render('add',array('model'=>$model));
 	}
 	public function actionIndex()
@@ -104,4 +113,21 @@ class InterriorsController extends Controller
 		);
 	}
 	*/
+        public function getToolbar(){
+            return $this->toolbar;
+        }
+        
+        public function setToolbar(){
+            $this->toolbar=array(
+			'items' => array(
+				        array(
+				            'label'=>'Разметить углы',
+				            'icon-position'=>'left',
+				            'url'=>array('/#'),
+                                            'linkOptions'=>array('id'=>"complex_int")
+				        ),
+				    ),
+			'htmlOptions' => array('style' => 'clear: both;'),
+                );
+        }
 }

@@ -51,11 +51,20 @@ return array(
 		),
 */
 		// uncomment the following to use a MySQL database
+/*
 		'db'=>array(
-			'connectionString' => 'mysql:host=127.0.0.1;port=31006;dbname=artpotolok55_new',
+			'connectionString' => 'mysql:host=127.0.0.1;port=31006;dbname=artpotolok55',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => 'Ololo14',
+			'charset' => 'utf8',
+		),
+*/
+		'db'=>array(
+			'connectionString' => 'mysql:host=127.0.0.1;dbname=potolok55_artpotolok55_new',
+			'emulatePrepare' => true,
+			'username' => 'potolok55_art',
+			'password' => 'ml8D6pxb',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(

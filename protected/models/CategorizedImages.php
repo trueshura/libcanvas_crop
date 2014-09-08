@@ -26,7 +26,6 @@ class CategorizedImages extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('imgID, catID', 'required'),
 			array('imgID, catID', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -42,6 +41,8 @@ class CategorizedImages extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+                    'filename' =>array(self::BELONGS_TO,'Images','imgID'),
+                    'desc'=>array(self::BELONGS_TO,'Categories','catID')
 		);
 	}
 

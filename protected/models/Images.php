@@ -32,7 +32,6 @@ class Images extends CActiveRecord
 			array('id, fileName', 'safe', 'on'=>'search'),
 		);
 	}
-
 	/**
 	 * @return array relational rules.
 	 */
@@ -41,6 +40,8 @@ class Images extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+//                    'imgs'=>array(self::HAS_MANY, 'CategorizedImages','imgID'),
+                    'cats'=>array(self::HAS_MANY, 'CategorizedImages','imgID'),
 		);
 	}
 
@@ -91,4 +92,11 @@ class Images extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        public function getImgCats(){
+            $catValues=array();    
+            foreach($this->cats as $cat){
+                $catValues[$cat->desc->id]=1;
+            }
+            return $catValues;
+        }
 }
