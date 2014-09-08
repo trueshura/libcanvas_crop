@@ -62,15 +62,15 @@ if($model->scenario =='Add'){
 	<?php echo $form->errorSummary($model); ?>
 
 	<div id="selectFile" class="row">
-		<?php echo $form->labelEx($model,'fileName'); ?>
 		<?php 
                 if($model->scenario =='Add'){
+                    echo $form->labelEx($model,'fileName');
                     echo $form->fileField($model,'fileName'); 
+                    echo $form->error($model,'fileName');
                 }else{
                     echo $form->hiddenField($model,'fileName');
                 }
                 ?>
-		<?php echo $form->error($model,'fileName'); ?>
 	</div>
         <div class="row">
                 <?php echo $form->hiddenField($model,'id'); ?>

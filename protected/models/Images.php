@@ -52,7 +52,7 @@ class Images extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'fileName' => 'File Name',
+			'fileName' => 'Выберите файл',
 		);
 	}
 

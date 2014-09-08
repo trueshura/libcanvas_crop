@@ -2704,3 +2704,41 @@ Stack trace:
 REQUEST_URI=/artpotolok55/index.php
 HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/interriors
 ---
+2014/09/08 15:16:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('edit')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('edit')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/ed...')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/edit&id=1
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images
+---
+2014/09/08 15:18:04 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (29)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/08 15:26:12 [error] [exception.CException] exception 'CException' with message 'InterriorsController and its behaviors do not have a method or closure named "model".' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('model', Array)
+#1 C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php(84): InterriorsController->model()
+#2 C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php(24): InterriorsController->loadModel('16')
+#3 [internal function]: InterriorsController->actionEdit('16')
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(InterriorsController), Array)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(InterriorsController), Object(ReflectionMethod), Array)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('edit')
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/interrior...')
+#16 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/interriors/edit&id=16
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/interriors
+---
