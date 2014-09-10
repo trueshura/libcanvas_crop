@@ -66,7 +66,7 @@ atom.declare("Marks", App.Element, {
             }
             
             if( i == elems.length && e.ctrlKey){    // Ни 1 вершины под курсором не найдено и нажат Ctrl = ставим новую вершину
-                var point=new Point(e.layerX,e.layerY);
+                var point=mouseHandler.mouse.point.clone();
                 var vertex=new Vertex(l, {shape: new Circle(point, 10)});
                 l.addElement(vertex);
             }else if( i < elems.length && e.altKey){ // Вершина найдена и нажат Alt = удаляем вершину

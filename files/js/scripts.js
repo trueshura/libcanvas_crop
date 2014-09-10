@@ -129,6 +129,22 @@ var MULTIPLY=2;
                     }
                 });
     }
+    /*
+     * @imglist - object 
+     * @imglist.images - object
+     * @imglist.images.fileName - conatains DOM 'img' element
+     */
+    function drawThumbs(imglist,container){
+        container = container || "list";
+        for(var i in imglist.images){
+            var span = document.createElement('span');
+            //need to clone node, because we'll resize element
+            var clone=imglist.images[i].cloneNode(false);
+            span.appendChild(clone);
+            document.getElementById(container).insertBefore(span, null);
+        }
+    }
+
     function rotate90(){
         var a=c_ctrl.carcass.shape.points, b=a.shift();
         a.push(b);

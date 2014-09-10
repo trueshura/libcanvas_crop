@@ -17,9 +17,9 @@ class ImagesController extends Controller
             if(isset($_POST['Images'])){
                 $model->attributes=$_POST['Images'];
                 if($model->validate()){
-                    $model->save();
-                    $this->redirect(array('index'));
-                    
+                    var_dump($_POST);
+//                    $model->save();
+//                    $this->redirect(array('index'));
                 }    
             }
             $this->render('add',array('model'=>$model));

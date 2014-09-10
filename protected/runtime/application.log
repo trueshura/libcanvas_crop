@@ -2742,3 +2742,120 @@ Stack trace:
 REQUEST_URI=/artpotolok55/index.php?r=admin/interriors/edit&id=16
 HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/interriors
 ---
+2014/09/10 13:21:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/
+HTTP_REFERER=http://localhost:32304/
+---
+2014/09/10 13:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=site/login
+---
+2014/09/10 16:03:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "interriors/index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inde...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+---
+2014/09/10 16:05:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/
+---
+2014/09/10 16:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://192.168.23.118:32304/artpotolok55/index.php?r=site/login
+---
+2014/09/10 16:07:22 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (43)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 16:08:05 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (29)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 16:21:40 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (43)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 16:22:15 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (43)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 16:22:38 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (29)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 16:22:50 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (29)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 16:22:57 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (29)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 18:45:52 [warning] [application] Failed to set unsafe attribute "fileName" of "Images".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (18)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 18:57:37 [warning] [application] Failed to set unsafe attribute "fileName" of "Images".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (18)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/10 19:17:38 [error] [exception.CException] exception 'CException' with message 'Property "Images.allCats" is not defined.' in C:\hlam\yii-1.1.15.022a51\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(161): CComponent->__set('allCats', Array)
+#1 C:\Bitrix\www\artpotolok55\protected\views\admin\images\add.php(57): CActiveRecord->__set('allCats', Array)
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#6 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(25): CController->render('add', Array)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionAdd()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('add')
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/ad...')
+#13 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/add
+---
+2014/09/10 19:19:10 [error] [php] mb_strpos() expects parameter 1 to be string, array given (C:\hlam\yii-1.1.15.022a51\framework\web\helpers\CHtml.php:2477)
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): ImagesController->renderInternal()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): ImagesController->renderFile()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): ImagesController->renderPartial()
+#4 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(25): ImagesController->render()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionAdd()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): ImagesController->runAction()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): ImagesController->runActionWithFilters()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): ImagesController->run()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/add
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\add.php (58)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (25)
+in C:\Bitrix\www\artpotolok55\index.php (13)
