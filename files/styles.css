@@ -60,9 +60,10 @@ a:visited {
     pointer-events: none;
 }
 
-.categories label{
+.categories > label, .categories > span> label{
     display: inline-block !important;
 }
+
 .categories p{
     font-weight: bold;
     margin-top: 1em;

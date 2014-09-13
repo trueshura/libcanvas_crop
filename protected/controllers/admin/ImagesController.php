@@ -2,40 +2,80 @@
 
 class ImagesController extends Controller
 {
-        public $emCategories;
+//        public $emCategories;
         public $toolbar;
 
         function __construct($id, $module=NULL) {
             $this->toolbar = NULL;
-            $this->emCategories= NULL;
+//            $this->emCategories= NULL;
             parent::__construct($id, $module);
         }
-
-	public function actionAdd()
+        
+        protected function createNewCat($model){
+                if(isset($_POST['newCat'])){
+                    $cat=new Category;
+                    $cat->attributes=$_POST['Category'];
+                    if($cat->validate()){
+                        $cat->save();
+                        array_push($model->imgCats,$cat->id);
+                    }
+                }            
+        }
+        
+	public function actionAdd()        
 	{
-            $model=new Images('Add');
+            $model=new Images;
+            $model->scenario="Add";
             if(isset($_POST['Images'])){
                 $model->attributes=$_POST['Images'];
-                if($model->validate()){
-                    var_dump($_POST);
-//                    $model->save();
-//                    $this->redirect(array('index'));
-                }    
+                $this->createNewCat($model);
+                
+                $transaction=$model->dbConnection->beginTransaction();
+                try{
+
+                    $files=CUploadedFile::getInstances($model,'fileName');                
+                    foreach($files as $file){
+                        $newImg=new Images;
+                        $newImg->imgCats=$model->imgCats;
+                        $newImg->fileName=$file;
+                        if($newImg->validate()){
+                            $newImg->save();
+                        }
+                    }
+                }catch(Exception $e){
+                    $transaction->rollback();
+                    throw $e;
+                }            
+                $this->redirect(array('index'));
             }
             $this->render('add',array('model'=>$model));
 	}
         
 	public function actionEdit($id)
-	{   
+	{
             $model=$this->loadModel($id);
             $model->scenario="Edit";
             
-            $this->render('add',array('model'=>$model));
+            if(isset($_POST['Images'])){
+                $model->attributes=$_POST['Images'];
+                $this->createNewCat($model);
+                if($model->validate()){
+                    $model->save();
+                }
+                $this->redirect(array('index'));
+            }else{
+                $this->render('add',array('model'=>$model));
+            }
 	}
         
-	public function actionDelete($id)
-	{
-		$this->render('delete');
+ 	public function actionDelete($id)
+ 	{
+            $model=$this->loadModel($id);
+
+            $this->performAjaxDeletion($model);
+
+            $model->delete();
+            $this->redirect(array('index'));
 	}
 
 	public function actionIndex()
@@ -59,7 +99,7 @@ class ImagesController extends Controller
 	{
 		return array(
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('add','index','edit','delete'),
+				'actions'=>array('add','index','edit','delete','test'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -67,6 +107,17 @@ class ImagesController extends Controller
 			),
 		);
 	}
+        
+        protected function performAjaxDeletion($model)
+	{
+		if(isset($_GET['ajax']))
+		{    
+                    $model->delete();
+                    echo "deleted";
+                    Yii::app()->end();
+		}
+	}
+
         
 	// Uncomment the following methods and override them if needed
 	/*

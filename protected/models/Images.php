@@ -9,7 +9,20 @@
  */
 class Images extends CActiveRecord
 {
-        public $allCats;
+        public $imgCats=null;
+        
+        public function setImgCats($val){
+            if(is_array($val)){
+                $this->imgCats=$val;
+            }
+        }
+        public function getImgCats(){
+            if(!$this->isNewRecord && !$this->imgCats){
+                $this->imgCats=CHtml::listData($this->cats,"id","catID");
+            }
+            return $this->imgCats;
+        }
+        
 	/**
 	 * @return string the associated database table name
 	 */
@@ -18,7 +31,58 @@ class Images extends CActiveRecord
 		return 'images';
 	}
 
-	/**
+        public function behaviors(){
+            return array(
+                'activerecord-relation'=>array(
+                    'class'=>'application.extensions.behaviors.activerecord-relation.EActiveRecordRelationBehavior',
+                    ),
+                );
+        }
+        protected function afterSave(){
+            parent::afterSave();
+
+            if(!$this->isNewRecord){
+                $catalog=new CategorizedImages();
+                $catalog->deleteAll("imgID = ".$this->id);
+            }else{
+                $this->createThumbAndResize($this->fileName->tempName);
+            }
+            foreach($this->imgCats as $cat){
+                $catImg=new CategorizedImages();
+                $catImg->imgID=$this->id;
+                $catImg->catID=$cat;
+                $catImg->save();
+            }
+            return true;
+        }
+
+        protected function afterDelete(){
+            parent::afterDelete();
+
+            $catalog=new CategorizedImages();
+            $catalog->deleteAll("imgID = ".$this->id);
+        }
+        
+        protected function createThumbAndResize($filename){
+            $newname=Yii::getPathOfAlias('webroot.images.uploads').DIRECTORY_SEPARATOR.$this->fileName;
+            $thumbname=Yii::getPathOfAlias('webroot.images.uploads.thumbs').DIRECTORY_SEPARATOR."thumb_".$this->fileName;
+            $source = imagecreatefromjpeg( $filename );
+            list( $w, $h ) = getimagesize( $filename );
+            $resized = imagecreatetruecolor(800, 500);
+            imagecopyresampled( $resized, $source, 0, 0, 0, 0, 800, 500, $w, $h );
+            imagejpeg( $resized, $newname, 75 );
+            
+            $thumb = imagecreatetruecolor(200, 125);
+            imagecopyresampled( $thumb, $source, 0, 0, 0, 0, 200, 125, $w, $h );
+            imagejpeg( $thumb, $thumbname, 75 );
+
+            imagedestroy( $thumb );
+            imagedestroy( $source );
+            imagedestroy( $resized );
+
+        }
+
+        /**
 	 * @return array validation rules for model attributes.
 	 */
 	public function rules()
@@ -27,6 +91,8 @@ class Images extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('fileName', 'file', 'on' => 'edit', 'allowEmpty'=>FALSE, 'mimeTypes' =>"image/jpeg"),
+                        array('fileName', 'unique', 'message'=>"Файл {fileName} уже существует в базе"),
+                        array('ImgCats', 'type', 'type' => 'array'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, fileName', 'safe', 'on'=>'search'),
@@ -92,11 +158,4 @@ class Images extends CActiveRecord
 	{
 		return parent::model($className);
 	}
-        public function getImgCats(){
-            $catValues=array();    
-            foreach($this->cats as $cat){
-                $catValues[$cat->desc->id]=1;
-            }
-            return $catValues;
-        }
 }

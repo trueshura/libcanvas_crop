@@ -7,7 +7,7 @@
  * @property integer $id
  * @property string $description
  */
-class Categories extends CActiveRecord
+class Category extends CActiveRecord
 {
         protected static $allCats=null;
 
@@ -43,7 +43,7 @@ class Categories extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                    'cats'=>array(self::HAS_MANY, 'CategorizedImages','catId'),
+                    'images'=>array(self::HAS_MANY, 'CategorizedImages','catId'),
 		);
 	}
 
@@ -104,5 +104,7 @@ class Categories extends CActiveRecord
                     }
                 }
                 return $allCats;
-        }               
+        }
+        
 }
+        

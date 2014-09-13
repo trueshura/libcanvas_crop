@@ -10,6 +10,7 @@
  */
 class CategorizedImages extends CActiveRecord
 {
+        public $allCats;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -17,6 +18,14 @@ class CategorizedImages extends CActiveRecord
 	{
 		return 'categorizedimages';
 	}
+
+        public function behaviors(){
+            return array(
+                'activerecord-relation'=>array(
+                    'class'=>'application.extensions.behaviors.activerecord-relation.EActiveRecordRelationBehavior',
+                    ),
+                );
+        }
 
 	/**
 	 * @return array validation rules for model attributes.
@@ -42,7 +51,7 @@ class CategorizedImages extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
                     'filename' =>array(self::BELONGS_TO,'Images','imgID'),
-                    'desc'=>array(self::BELONGS_TO,'Categories','catID')
+                    'category'=>array(self::BELONGS_TO,'Category','catID')
 		);
 	}
 
@@ -95,4 +104,14 @@ class CategorizedImages extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+	/**
+	 * @was array. Список текущих категорий
+         * @new array. Список новых категорий
+	 * @return 
+	 */
+        public static function getDiff()
+	{
+		return parent::model($className);
+	}
+
 }

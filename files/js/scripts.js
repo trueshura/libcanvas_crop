@@ -21,13 +21,10 @@ var MULTIPLY=2;
     }
     function handleSubmission(e) {
         atom.dom('#Interriors_strProjection').first.value=polyToStr(c_ctrl.carcass.shape,MULTIPLY);
-
-//        e.preventDefault();
-//        return false;
     }
-
-    function handleFileSelect(evt) {
-        var files = evt.target.files; // FileList object
+    
+    function handleFileSelect(e) {
+        var files = e.files; // FileList object
 
     // Loop through the FileList and render image files as thumbnails.
         for (var i = 0, f; f = files[i]; i++) {
@@ -38,6 +35,7 @@ var MULTIPLY=2;
         }
 
         var reader = new FileReader();
+        reader.emId=e.id;
         
       // Closure to capture the file information.
         reader.onload = (function(theFile) {
@@ -46,6 +44,7 @@ var MULTIPLY=2;
                 var new_img_list = {};
                 var img = document.createElement('img');
                 img.src=e.target.result;
+                img.id="thumb"+e.target.emId;
                 new_img_list.images={};
                 new_img_list.images[theFile.name]=img;
                 
