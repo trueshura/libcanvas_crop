@@ -1,0 +1,62 @@
+html, body {
+	color: #ccc;
+	background: #111;
+	font: 16px/24px sans-serif;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a {
+	color: #4169e1;
+}
+a:visited {
+	color: #cc33cc;
+}
+.libcanvas-app,
+.libcanvas-app-simple {
+	border: 1px solid #666;
+}
+
+
+#canv{
+	position:relative;
+	margin: 12px;
+	width:800px;
+	height:600px;
+}
+#canv > canvas{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#canv > img{
+	width:100%;
+}
+#list > span, #list_int > span{
+        margin: 10px;
+}
+#list > span > img, #list > span > canvas, #list_int > span > img{
+        width:70px;
+        height:70px;
+        border-width: 2px;
+        border-style: solid;
+}
+#list > span > img:hover{
+        border-color: green;
+        border-width: 2px;
+        border-style: solid;
+}
+#list > span > canvas:hover{
+        border-color: green;
+        border-width: 2px;
+        border-style: solid;    
+}
+#list_int > span > img:hover{
+        border-color: green;
+        border-width: 2px;
+        border-style: solid;
+}
+
+.edit{
+}
+.hidden{
+    display: none;
+}
