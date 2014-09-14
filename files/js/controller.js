@@ -50,12 +50,9 @@ atom.declare('Canvas.Controller', {
         // Layer 1
                 interr = new Interrior( this.interriorLayer, { image: images.images.interrior });
         // Layer 2
-                var shape  = new Polygon([
-			[240, 100],
-			[400,  10],
-			[400, 390],
-			[240, 300]
-		]);
+                var shape  = new Rectangle(
+			240, 100, 100,100
+		);
                 this.carcass=new Carcass( this.editLayer, { shape: shape});
                 new Ceiling( this.ceilingLayer, { shape: shape});
 

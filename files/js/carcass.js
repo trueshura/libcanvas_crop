@@ -32,10 +32,10 @@ atom.declare("Vertex",App.Element, {
             
             var l=this.layer;
             this.layer.carcShape=this.shape;
-            this.shape.points.forEach(function (point) {
-                var vertex=new Vertex(l, {shape: new Circle(point, 10)});
-                l.addElement(vertex);
-            });
+            var from=new Vertex(l, {shape: new Circle(this.shape.from, 10)});
+            var to=new Vertex(l, {shape: new Circle(this.shape.to, 10)});
+            l.addElement(from);
+            l.addElement(to);
             this.layer.app.resources.get('mouseHandler').subscribe(this);
         },
 
