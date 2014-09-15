@@ -7,8 +7,6 @@ atom.declare("Vertex",App.Element, {
                 configure: function () {
                     this.clickable  = new App.Clickable(this, this.redraw).start();
                     this.draggable  = new App.Draggable(this, this.redraw).start();
-                    this.animatable = new atom.Animatable(this);
-                    this.animate    = this.animatable.animate;
 
                     this.layer.app.resources.get('mouseHandler').subscribe(this);
                 },
@@ -40,7 +38,16 @@ atom.declare("Vertex",App.Element, {
         },
 
         get currentBoundingShape () {
-            return this.shape.getBoundingRectangle().grow(2);
+            var n=new Point(0,0);
+            var diff=this.shape.from.diff(this.shape.to);
+            if(diff.x <10)
+                n.x=diff.x;
+            if(diff.y<10)
+                n.y=diff.y;
+            if(n.x || n.y)
+                this.shape.from.move(n);
+            
+            return this.shape.getBoundingRectangle().clone().grow(2);
         },
 
         renderTo: function (ctx) {
