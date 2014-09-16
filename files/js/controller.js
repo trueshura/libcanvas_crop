@@ -5,35 +5,23 @@
  */
 /** @class Canvas.Controller */
 atom.declare('Canvas.Controller', {
-    initialize: function () {
+    initialize: function (settings) {
         this.size = new Size(800, 600);
 	this.my_imgs =[];
         
+        this.settings  = new atom.Settings(settings);
         this.app = new App({ size: this.size,
                              appendTo: "#scene"
                             });
 		
         this.interriorLayer = this.app.createLayer({
 			name: 'interrior',
-			intersection: 'manual',
+			intersection: 'auto',
 			zIndex: 1
 		});
-		
-        this.editLayer = this.app.createLayer({
-			name: 'edit',
-			intersection: 'all',
-			zIndex: 2
-		});
-
-        this.ceilingLayer = this.app.createLayer({
-			name: 'ceiling',
-			intersection: 'manual',
-			zIndex: 3
-		});
-                
+		                
         atom.ImagePreloader.run({
-                        'interrior': '04.jpg',
-                        'int2': 'interer.jpg'
+            'image': this.settings.get('image'),
 		}, this.start.bind(this));
     },
     start: function (images){
@@ -46,23 +34,11 @@ atom.declare('Canvas.Controller', {
 			images: images,
 			mouse : mouse,
 			mouseHandler: mouseHandler
-		});        
-        // Layer 1
-                interr = new Interrior( this.interriorLayer, { image: images.images.interrior });
-        // Layer 2
+		}); 
                 var shape  = new Rectangle(
 			240, 100, 100,100
 		);
-                this.carcass=new Carcass( this.editLayer, { shape: shape});
-                new Ceiling( this.ceilingLayer, { shape: shape});
-
-                atom.ImagePreloader.run({
-                        'ny': 'NY_small.jpg'
-                    },
-                    function (img){
-                        drawThumbs(img);
-                    }
-                );
-                drawThumbs(images,"list_int");
+        // Layer 1
+                this.carcass=new Carcass( this.interriorLayer, { shape: shape, image: images.get('image')});
     }
 });

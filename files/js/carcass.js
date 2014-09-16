@@ -4,7 +4,12 @@
  * and open the template in the editor.
  */
 atom.declare("Vertex",App.Element, {
+                trackedPoint: null,
+
                 configure: function () {
+                    this.trackedPoint=this.settings.get('track');
+                    this.zIndex=2;
+                    
                     this.clickable  = new App.Clickable(this, this.redraw).start();
                     this.draggable  = new App.Draggable(this, this.redraw).start();
 
@@ -19,42 +24,44 @@ atom.declare("Vertex",App.Element, {
                     }else{
                         ctx.fill(this.shape, 'red');
                     }
-                }
-                        
+                },
+                distanceMove: function (point){
+                    var newPoint=this.shape.center.clone();
+                    newPoint.move(point);
+                    var diffPoint=newPoint.diff(this.trackedPoint);
+                    if(diffPoint.x<-100 && diffPoint.y<-100)
+                        this.shape.move(point);
+                }                        
 });
 
  atom.declare("Carcass", App.Element, {
+        
         configure: function () {
             this.clickable  = new App.Clickable(this, this.redraw).start();
             this.draggable  = new App.Draggable(this, this.redraw).start();
             
+            this.img=this.settings.get('image');
+            this.zIndex=1;
+            
             var l=this.layer;
             this.layer.carcShape=this.shape;
-            var from=new Vertex(l, {shape: new Circle(this.shape.from, 10)});
-            var to=new Vertex(l, {shape: new Circle(this.shape.to, 10)});
-            l.addElement(from);
+            var to=new Vertex(l, {shape: new Circle(this.shape.to, 10), track: this.shape.from});
             l.addElement(to);
             this.layer.app.resources.get('mouseHandler').subscribe(this);
         },
 
         get currentBoundingShape () {
-            var n=new Point(0,0);
-            var diff=this.shape.from.diff(this.shape.to);
-            if(diff.x <10)
-                n.x=diff.x;
-            if(diff.y<10)
-                n.y=diff.y;
-            if(n.x || n.y)
-                this.shape.from.move(n);
-            
             return this.shape.getBoundingRectangle().clone().grow(2);
         },
 
         renderTo: function (ctx) {
-            if (this.hover) {
-                ctx.fill( this.shape, 'rgba(255, 0, 0, 0.2)' );
-            }
-            ctx.stroke( this.shape, 'rgba(255, 255, 0, 0.3)' );
+            ctx.drawImage({image: this.img, draw: ctx.rectangle});
+            ctx.fillAll('rgba(170,170,170,0.7)');
+            ctx.save();
+            ctx.clip(this.shape);
+            ctx.stroke(this.shape);
+            ctx.drawImage({image: this.img, draw: ctx.rectangle});
+            ctx.restore();
         }
 });
 
