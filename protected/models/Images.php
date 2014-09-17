@@ -10,6 +10,7 @@
 class Images extends CActiveRecord
 {
         public $imgCats=null;
+        public $catId=-1;
         
         public function setImgCats($val){
             if(is_array($val)){
@@ -95,7 +96,7 @@ class Images extends CActiveRecord
                         array('ImgCats', 'type', 'type' => 'array'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, fileName', 'safe', 'on'=>'search'),
+			array('id, fileName,catId', 'safe', 'on'=>'search'),
 		);
 	}
 	/**
@@ -140,8 +141,7 @@ class Images extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
-		$criteria->compare('fileName',$this->fileName,true);
+		$criteria->compare('cats',$this->catId);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

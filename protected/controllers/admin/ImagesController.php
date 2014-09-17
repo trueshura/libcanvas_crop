@@ -80,8 +80,13 @@ class ImagesController extends Controller
 
 	public function actionIndex()
 	{
+		$model=new User('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['User']))
+			$model->attributes=$_GET['User'];
+
+                
                 $dataProvider=new CActiveDataProvider('Images');
-                //$this->emCategories=new CActiveDataProvider('Categories');
                 $this->render('index',array(
                     'dataProvider'=>$dataProvider,
 		));

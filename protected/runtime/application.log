@@ -3530,3 +3530,32 @@ HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index&
 2014/09/13 19:46:10 [warning] [application] Failed to set unsafe attribute "id" of "Interriors".
 in C:\Bitrix\www\artpotolok55\protected\controllers\admin\InterriorsController.php (43)
 in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 20:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "interriors/index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inde...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+---
+2014/09/17 20:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+---
+2014/09/17 20:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artpotolok55/index.php
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=site/login
+---
