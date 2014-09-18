@@ -10,7 +10,7 @@
 class Images extends CActiveRecord
 {
         public $imgCats=null;
-        public $catId=-1;
+        public $catId=0;
         
         public function setImgCats($val){
             if(is_array($val)){
@@ -24,6 +24,14 @@ class Images extends CActiveRecord
             return $this->imgCats;
         }
         
+        public function getCatId(){
+            return $this->catId;
+        }
+        
+        public function setCatId($val){
+            $this->catId=$val;
+        }
+
 	/**
 	 * @return string the associated database table name
 	 */
@@ -93,22 +101,10 @@ class Images extends CActiveRecord
 		return array(
 			array('fileName', 'file', 'on' => 'edit', 'allowEmpty'=>FALSE, 'mimeTypes' =>"image/jpeg"),
                         array('fileName', 'unique', 'message'=>"Файл {fileName} уже существует в базе"),
-                        array('ImgCats', 'type', 'type' => 'array'),
+                        array('ImgCats', 'type', 'type' => 'array', 'on'=>'Edit,Add'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, fileName,catId', 'safe', 'on'=>'search'),
-		);
-	}
-	/**
-	 * @return array relational rules.
-	 */
-	public function relations()
-	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
-		return array(
-//                    'imgs'=>array(self::HAS_MANY, 'CategorizedImages','imgID'),
-                    'cats'=>array(self::HAS_MANY, 'CategorizedImages','imgID'),
+                        array('catId', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -138,14 +134,28 @@ class Images extends CActiveRecord
 	public function search()
 	{
 		// @todo Please modify the following code to remove attributes that should not be searched.
-
-		$criteria=new CDbCriteria;
-
-		$criteria->compare('cats',$this->catId);
-
-		return new CActiveDataProvider($this, array(
+            $criteria=new CDbCriteria;
+            if($this->catId){
+                $criteria->with=array(
+                    'cats',);
+                $criteria->together=true;
+		$criteria->compare('cats.catID',$this->catId);
+            }
+            return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+	/**
+	 * @return array relational rules.
+	 */
+	public function relations()
+	{
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+//                    'imgs'=>array(self::HAS_MANY, 'CategorizedImages','imgID'),
+                    'cats'=>array(self::HAS_MANY, 'CategorizedImages','imgID'),
+		);
 	}
 
 	/**

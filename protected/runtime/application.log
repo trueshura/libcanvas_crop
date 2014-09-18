@@ -3559,3 +3559,593 @@ Stack trace:
 REQUEST_URI=/artpotolok55/index.php
 HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=site/login
 ---
+2014/09/17 21:14:14 [error] [php] include(User.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\hlam\yii-1.1.15.022a51\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(83): spl_autoload_call()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): ImagesController->runAction()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): ImagesController->runActionWithFilters()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): ImagesController->run()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (83)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 21:17:11 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(38): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(89): CController->render('index', Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#15 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 21:25:39 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `images` `t` WHERE cats=:ycp0.
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (38)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (89)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 21:25:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `images` `t` WHERE cats=:ycp0' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1601): CDbCommand->queryScalar()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#7 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#10 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(38): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(89): CController->render('index', Array)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#17 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#22 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:10:17 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "imgID" is not defined in active record class "CategorizedImages".' in C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php:226
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(296): CActiveFinder->buildJoinTree(Object(CJoinElement), 'cats.imgID')
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(909): CActiveFinder->__construct(Object(Images), Array)
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1604): CActiveRecord->getActiveFinder(Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:20:40 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.filename' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (cats.filename=:ycp0).
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (41)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (88)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 22:20:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.filename' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (cats.filename=:ycp0)' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(759): CDbCommand->queryScalar()
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1605): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:24:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.catID' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`fileName` AS `t0_c1` FROM `images` `t`  WHERE (cats.catID=:ycp0) LIMIT 10.
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (41)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (88)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 22:24:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.catID' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`fileName` AS `t0_c1` FROM `images` `t`  WHERE (cats.catID=:ycp0) LIMIT 10' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(803): CDbCommand->queryAll()
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1356): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:29:25 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.filename' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (cats.filename=:ycp0).
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (41)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (88)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 22:29:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.filename' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (cats.filename=:ycp0)' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(759): CDbCommand->queryScalar()
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1605): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:33:29 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categorizedimages.catID' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (categorizedimages.catID=:ycp0).
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (41)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (88)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 22:33:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categorizedimages.catID' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (categorizedimages.catID=:ycp0)' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(759): CDbCommand->queryScalar()
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1605): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:33:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.catID' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`fileName` AS `t0_c1` FROM `images` `t`  WHERE (cats.catID=:ycp0) LIMIT 10.
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (41)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (88)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 22:33:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.catID' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`fileName` AS `t0_c1` FROM `images` `t`  WHERE (cats.catID=:ycp0) LIMIT 10' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(803): CDbCommand->queryAll()
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1356): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:36:20 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.category' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (cats.category=:ycp0).
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (41)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (88)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 22:36:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.category' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (cats.category=:ycp0)' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(759): CDbCommand->queryScalar()
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1605): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:36:55 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (category=:ycp0).
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (41)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (88)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 22:36:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `images` `t`  LEFT OUTER JOIN `categorizedimages` `cats` ON (`cats`.`imgID`=`t`.`id`)  LEFT OUTER JOIN `images` `filename` ON (`cats`.`imgID`=`filename`.`id`)  WHERE (category=:ycp0)' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(759): CDbCommand->queryScalar()
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1605): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:37:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.catID' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`fileName` AS `t0_c1` FROM `images` `t`  WHERE (cats.catID=:ycp0) LIMIT 10.
+in C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php (41)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (88)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/17 22:37:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cats.catID' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`fileName` AS `t0_c1` FROM `images` `t`  WHERE (cats.catID=:ycp0) LIMIT 10' in C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(803): CDbCommand->queryAll()
+#2 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1356): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\hlam\yii-1.1.15.022a51\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CActiveDataProvider.php(199): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#8 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#9 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#15 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#16 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#17 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#18 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#19 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#21 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#23 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#24 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+HTTP_REFERER=http://localhost:32304/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:51:29 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(46): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#15 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:51:51 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(46): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#15 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:52:04 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(46): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#15 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:52:34 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(49): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#15 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/17 22:52:38 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CBaseListView.php:109
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#1 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\Bitrix\www\artpotolok55\protected\views\admin\images\index.php(49): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(126): require('C:\Bitrix\www\a...')
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Bitrix\www\a...', Array, true)
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(869): CBaseController->renderFile('C:\Bitrix\www\a...', Array, true)
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(88): CController->render('index', Array)
+#9 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(49): ImagesController->actionIndex()
+#10 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/images/in...')
+#15 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/index
+---
+2014/09/18 13:19:28 [warning] [application] Failed to set unsafe attribute "ImgCats" of "Images".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (59)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/18 13:19:28 [error] [php] Invalid argument supplied for foreach() (C:\Bitrix\www\artpotolok55\protected\models\Images.php:59)
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(62): Images->save()
+#1 unknown(0): ImagesController->actionEdit()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): ImagesController->runAction()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): ImagesController->runActionWithFilters()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): ImagesController->run()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/edit&id=25
+in C:\Bitrix\www\artpotolok55\protected\models\Images.php (59)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (62)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/18 13:21:10 [warning] [application] Failed to set unsafe attribute "ImgCats" of "Images".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (59)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/18 13:23:34 [error] [php] Invalid argument supplied for foreach() (C:\Bitrix\www\artpotolok55\protected\models\Images.php:59)
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(62): Images->save()
+#1 unknown(0): ImagesController->actionEdit()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): ImagesController->runAction()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): ImagesController->runActionWithFilters()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): ImagesController->run()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/edit&id=25
+in C:\Bitrix\www\artpotolok55\protected\models\Images.php (59)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (62)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/18 13:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "interriors/index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inde...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+---
+2014/09/18 13:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "interriors/index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inde...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+---
+2014/09/18 13:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "interriors/index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inde...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+---
+2014/09/18 13:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "interriors/index".' in C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('interriors/inde...')
+#1 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitrix\www\artpotolok55\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/artpotolok55/index.php?r=interriors/index
+---
+2014/09/18 13:29:55 [warning] [application] Failed to set unsafe attribute "ImgCats" of "Images".
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (59)
+in C:\Bitrix\www\artpotolok55\index.php (13)
+2014/09/18 13:29:55 [error] [php] Invalid argument supplied for foreach() (C:\Bitrix\www\artpotolok55\protected\models\Images.php:59)
+Stack trace:
+#0 C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php(62): Images->save()
+#1 unknown(0): ImagesController->actionEdit()
+#2 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#3 C:\hlam\yii-1.1.15.022a51\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(286): ImagesController->runAction()
+#6 C:\hlam\yii-1.1.15.022a51\framework\web\CController.php(265): ImagesController->runActionWithFilters()
+#7 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): ImagesController->run()
+#8 C:\hlam\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\hlam\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitrix\www\artpotolok55\index.php(13): CWebApplication->run()
+REQUEST_URI=/artpotolok55/index.php?r=admin/images/edit&id=25
+in C:\Bitrix\www\artpotolok55\protected\models\Images.php (59)
+in C:\Bitrix\www\artpotolok55\protected\controllers\admin\ImagesController.php (62)
+in C:\Bitrix\www\artpotolok55\index.php (13)

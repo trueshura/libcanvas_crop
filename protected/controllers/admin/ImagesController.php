@@ -3,12 +3,11 @@
 class ImagesController extends Controller
 {
 //        public $emCategories;
-        public $toolbar;
-
-        function __construct($id, $module=NULL) {
-            $this->toolbar = NULL;
-//            $this->emCategories= NULL;
-            parent::__construct($id, $module);
+        public $toolbar=NULL;
+        public $filterCats=0;
+       
+        function init(){
+            
         }
         
         protected function createNewCat($model){
@@ -80,16 +79,12 @@ class ImagesController extends Controller
 
 	public function actionIndex()
 	{
-		$model=new User('search');
+		$model=new Images('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['User']))
-			$model->attributes=$_GET['User'];
+		if(isset($_POST['Images']))
+                    $model->attributes=$_POST['Images'];
 
-                
-                $dataProvider=new CActiveDataProvider('Images');
-                $this->render('index',array(
-                    'dataProvider'=>$dataProvider,
-		));
+                $this->render('index',array('model'=>$model));
 	}
         
         public function loadModel($id)

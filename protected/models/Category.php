@@ -105,6 +105,5 @@ class Category extends CActiveRecord
                 }
                 return $allCats;
         }
-        
 }
         

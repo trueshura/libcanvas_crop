@@ -11,14 +11,15 @@
         <?php echo CHtml::link(CHtml::image(CHtml::encode('images/uploads/thumbs/thumb_'.$data->fileName)),array('edit', 'id'=>$data->id)); ?>
         <div class="categories">
         <?php
+        if(!$this->filterCats){
             $allCats=Category::getAllCats();
             $imgCats=$data->getImgCats();
             foreach($allCats as $catId => $catLabel){
                 $elemId='['.$data->id.']check'.$catId;
                 echo CHtml::checkBox("img".$data->id,in_array($catId,$imgCats),array('id'=>$elemId,'name'=>$elemId,'disabled'=>true));
                 echo CHtml::label($catLabel,$elemId);
-
             }
+        }
         ?>
         </div>
         <?php echo CHtml::ajaxSubmitButton("Удалить",array('delete', 'id'=>$data->id,'ajax' => 1),
